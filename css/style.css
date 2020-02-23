@@ -163,6 +163,127 @@
 	color: white;
 }
 
+
+
+@media only screen and (max-width: 960px){
+	#topPanel{
+		background-color: #e5e5e5;
+		width: 100vw;
+		padding: 10px;
+		position: fixed;
+		z-index: 2;
+		font-family: 'Roboto';
+		float: left;
+		overflow: hidden;
+	}
+
+	.buttonTopPanel{
+		background-color: #007bc1;
+		color: white;
+		margin-left: 1%;
+		z-index: 3;
+		border: none;
+		height: 100%;
+	}
+
+	.trickyBar{
+		margin-top: -18%;
+		display: none;
+	}	
+
+	#pageHeader{
+		width: 100vw;
+		height: 70vh;
+		background-image: url("../assets/bg.jpg");
+		background-size: 100vw 100vh;
+		position: relative;
+		margin-top: 18%;
+	}
+
+	/*For Highlight Panel Item List*/
+
+	#highlightPanel{
+		width: 100vw;
+		height: 180vh;
+		background-color: #e5e5e5;
+	}
+
+	.highlighPanelTitle{
+		text-align: center;
+		padding: 3%;
+	}
+
+	.highlighPanelItemContainer{
+		margin-left: 30px;
+		margin-right: 0px;
+	}
+
+	.highlighPanelItem{
+		display: inline-grid;
+		border: 2px solid grey;
+		width: 35vw;
+		height: 40vh;
+		box-shadow: 4px -2px white;
+	}
+
+	.highlighPanelItemContent{
+		padding: 6%;
+		margin-top: -20%;
+	}
+
+	.highlighPanelItemContent h4{
+		font-size: 13pt;
+	}
+
+	.glyphicon{
+		font-size: 25px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+  	.newsLetter{
+		width: 70vw;
+		height: 32vh;
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		background-color: rgba(0,123,193,0.8);
+		float: left;
+		padding: 10px;
+		z-index: 3;
+		color: white;
+	}
+
+	.input{
+		width: 150px;
+		margin-top: 10px;
+		margin-left: -20px;
+	}
+
+	.btnNewsLetter{
+		background-color: #cc6600;
+		color: white;
+		width: 100px;
+		margin-left: -25px;
+		margin-top: 10px;
+		border: 2px solid white;
+	}
+
+	.close{
+		margin-top: -10%;
+		color: white;
+	}
+
+	.footer{
+		text-align: center;
+		background-color: #004a75;
+		width: : 100vw;
+		height: 15vh; 
+		color: white;
+		padding: 30px;
+	}
+}
+
 @media only screen and (max-width: 375px) {
 	#topPanel{
 		background-color: #e5e5e5;
