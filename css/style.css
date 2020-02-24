@@ -60,6 +60,10 @@
 	padding: 5%;
 }
 
+.pageHeaderText h3{
+	font-size: 15pt;
+}
+
 .buttonPageHeaderText{
 	margin-top: 3%;
 	width: 150px;
@@ -200,6 +204,10 @@
 		margin-top: 18%;
 	}
 
+	.pageHeaderText h3{
+		font-size: 15pt;
+	}
+
 	/*For Highlight Panel Item List*/
 
 	#highlightPanel{
@@ -317,6 +325,10 @@
 		background-size: 100vw 100vh;
 		position: relative;
 		margin-top: 40%;
+	}
+
+	.pageHeaderText h3{
+		font-size: 8pt;
 	}
 
 	/*For Highlight Panel Item List*/

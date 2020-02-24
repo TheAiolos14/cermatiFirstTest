@@ -10,15 +10,14 @@
 
     <title>Cermati Front-end</title>
   
-  <body>
-    
+  <body onclick="setTimeout(showNewsLetter, 600000)">
     <div class="col-lg-12 col-sm-12" id="topPanel">
             <div class="col-lg-offset-4 col-lg-4 col-sm-12">
                 <p>By accessing and using this website, you acknowledge that you have read and
                     <br>understang our <span class="blueTxt">Cokkie Policy</span>, <span class="blueTxt">Privacy Policy</span>, and our <span class="blueTxt">Term of Service</span>.
                 </p>
             </div>
-            <div class="col-lg-1 col-sm-12">
+            <div class="col-lg-1 col-sm-12" onclick="onClicktopPanel()">
                 <button class="buttonTopPanel">Got it !</button>
             </div>
     </div>
@@ -178,7 +177,7 @@
     <div class="newsLetter">
         <div class="col-lg-12 col-sm-12">
             <h3>Get latest updates in web technologies</h3> 
-            <button class="close"><span>&times;</span></button>
+            <button class="close" onclick="hideNewsLetter()"><span>&times;</span></button>
             <h5>I write articles realted to web technologies, such as design trends, development
                 <br>tools, UI/UX case studies and reviews, and more. Sign up to my newsletter to get
                 <br>them all.
@@ -199,17 +198,4 @@
   </body>
 </html>
 
-<script type="text/javascript">
-$(document).ready(function(){
-  $(".buttonTopPanel").click(function(){
-    $("#topPanel").hide();
-    $(".trickyBar").show();
-  });
-});
-
-$(document).ready(function(){
-  $(".close").click(function(){
-    $(".newsLetter").hide();
-  });
-});
-</script>
+<script type="text/javascript" src="js/index.js"></script>
